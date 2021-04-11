@@ -1,0 +1,69 @@
+{
+	"pumps": [{
+		"id": 1,
+		"imgSrc": "https://www.pngkit.com/png/full/381-3811107_standard-chemical-pump-megacpk-industrial-pumps.png",
+		"name": "Saint Mary Street Pump Station",
+		"category": ["Cat1", "Cat2"],
+		"properties": [{
+			"label": "Model Number",
+			"id": "modelNumber",
+			"value": "CNTRF10"
+		}, {
+			"label": "Serial Number",
+			"id": "serialNumber",
+			"value": "ZCNTRF10M824322"
+		}, {
+			"label": "Description",
+			"id": "description",
+			"value": "Pump for station 8675309"
+		}, {
+			"label": "Location",
+			"id": "location",
+			"value": "Needham, MA"
+		}]
+	}, {
+		"id": 2,
+		"imgSrc": "https://5.imimg.com/data5/NR/JD/MY-27888356/borewell-submerisble-pump-500x500.png",
+		"name": "Saint Mary Street Pump Station",
+		"category": ["Cat2"],
+		"properties": [{
+			"label": "Model Number",
+			"id": "modelNumber",
+			"value": "RM091"
+		}, {
+			"label": "Serial Number",
+			"id": "serialNumber",
+			"value": "RTRGRM09177AXA432"
+		}, {
+			"label": "Description",
+			"id": "description",
+			"value": "Pump for station 8675309"
+		}, {
+			"label": "Location",
+			"id": "location",
+			"value": "Needham, MA"
+		}]
+	}, {
+		"id": 3,
+		"imgSrc": "https://www.seekpng.com/png/full/381-3810523_close-couple-pump-water-motor-pump-png.png",
+		"name": "Saint Mary Street Pump Station",
+		"category": ["Cat3"],
+		"properties": [{
+			"label": "Model Number",
+			"id": "modelNumber",
+			"value": "BW1105"
+		}, {
+			"label": "Serial Number",
+			"id": "serialNumber",
+			"value": "SBMRSBW1150X890083"
+		}, {
+			"label": "Description",
+			"id": "description",
+			"value": "Pump for station 8675309"
+		}, {
+			"label": "Location",
+			"id": "location",
+			"value": "Needham, MA"
+		}]
+	}]
+}

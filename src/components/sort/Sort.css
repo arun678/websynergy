@@ -1,0 +1,71 @@
+.sort-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none;
+}
+
+.sort-select {
+  border: solid 2px #e3e3e3;
+  width: 300px;
+  margin: 8px 0 0;
+  padding: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-left: 72px;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  outline: none;
+}
+
+/*To remove button from IE11, thank you Matt */
+select::-ms-expand {
+  display: none;
+}
+
+.sort-select:after {
+  content: "\1F893";
+  color: #fff;
+  right: 0;
+  top: 0px;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  pointer-events: none;
+  width: 30px;
+  background: #797979;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Segoe UI Symbol;
+}
+
+.sort-select select {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  /* float: right; */
+  padding: 4px;
+  font-size: 14px;
+  line-height: 1.33;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0;
+  -ms-word-break: normal;
+  word-break: normal;
+  cursor: pointer;
+}
+
+.sort-select select:focus {
+  outline: none;
+}
