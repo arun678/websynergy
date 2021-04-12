@@ -48,10 +48,19 @@ const reducer = (state = initialState, action) => {
       const filtered = state.pumps.filter((el) => {
         return el.category.includes(action.cat)
       })
-      return {
-        ...state,
-        filteredPumps: filtered,
-        isChecked: !state.isChecked
+      if(state.isChecked) {
+        return {
+          ...state,
+          pumps: state.keepOriginal,
+          isChecked: !state.isChecked
+        }
+      } else {
+        return {
+          ...state,
+          pumps: filtered,
+          keepOriginal: state.pumps,
+          isChecked: !state.isChecked
+        }
       }
     default:
       break;

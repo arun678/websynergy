@@ -21,7 +21,7 @@ class PumpsBuilder extends Component {
         return (
             <div className="product-list-container">
                 <Sort sort={(e) => this.props.sortHandler(e.target.value)}></Sort>
-                {pumps.length !==0 && <Pumps list={isChecked? filteredPumps : pumps} showPumpDetails={this.showPumpDetailsHandler}></Pumps>}
+                {pumps.length !==0 && <Pumps list={pumps} showPumpDetails={this.showPumpDetailsHandler}></Pumps>}
             </div>
         )
     }
