@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  margin: 12px 0
 }
 /* IE11 hide native button (thanks Matt!) */
 select::-ms-expand {
@@ -10,12 +12,11 @@ select::-ms-expand {
 
 .sort-select {
   border: solid 2px #e3e3e3;
-  width: 300px;
-  margin: 8px 0 0;
+  width: 60%;
   padding: 0;
   border-radius: 8px;
   box-sizing: border-box;
-  margin-left: 72px;
+  margin-left: 12px;
   font-size: 18px;
   position: relative;
   overflow: hidden;
@@ -68,4 +69,11 @@ select::-ms-expand {
 
 .sort-select select:focus {
   outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sort-select {
+    width: 300px;
+    margin: 8px 0 0 72px;
+  }
 }
